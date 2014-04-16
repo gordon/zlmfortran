@@ -11,14 +11,11 @@ program api_example
 
   ! TODO: pass proper argv0
   errcode = zlmf_license_get(license, "My Product", "1.0", "", ".", "", err)
-
-
   if (errcode /= 0) then
     print *, err
   else
     print *, "got license!"
   end if
-
 
   call zlmf_license_free(license)
 end program api_example
