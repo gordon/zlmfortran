@@ -1,0 +1,5 @@
+*.lic
+*.mod
+*.o
+api_example
+libzlm.a
